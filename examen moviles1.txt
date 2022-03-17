@@ -1,0 +1,67 @@
+Alumno: Jonathan Montoya Machado
+Miercoles 6:15 pm
+
+
+solucion
+
+1. Que diferencia hay entre un igual ( = ) y un doble ( ==)
+
+
+la diferencia es que el (=) sirve para igualar una operacion
+
+(==) sirve para asignar datos para una variable o verificar valores de una igualdad.
+
+
+
+2. Cuales son los tipos de datos básico de java
+
+int, short, long, double, float, boolean, byte, char.
+java. lang. Integer, java. lang. String.
+fecha/hora: Date, java. 
+ava. math. BigInteger. math.
+
+
+3. Quién es la empresa que actualmente se encarga de mantener el desarrollo de
+java
+
+ORACLE
+
+
+4. En qué otros campos se puede utilizar java para crear software
+
+en todo tipo de aplicaciones  como por ejemplo procesadores de texto, hojas de cálculo. 
+entretenimiento, educacion, comunicacion entre otros.
+
+
+
+
+
+
+codigo
+
+package com.company;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+        Scanner inputData = new Scanner(System.in);
+        int numpersonas, plato,valortotalc, valorplato,  cantidadplatos = 0;
+        double descuento;
+
+        System.out.println("ingrese el numero de personas");
+        numpersonas = inputData.nextInt();
+        for (int i = 1;i<=numpersonas; i++){
+
+        }
+        if (valortotalc > 20000) {
+            descuento = valortotalc * 0.10;
+        }
+        else {
+
+            valortotalc = valortotalc - descuento
+    }
+
+
+
+
